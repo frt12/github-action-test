@@ -11,7 +11,7 @@ jobs:
         timeout-minutes: 0
       - name: multiline script 
         run: |
-           ode -v 
+           node -v 
            npm -v
       - name: python Command 
         run: |
